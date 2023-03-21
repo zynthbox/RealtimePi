@@ -66,10 +66,10 @@ Build requires about 3.5 GB of free space available.
 Note it takes about 6 hours to builds the kernel, and 12 for both kernels!
 You can build it by issuing the following commands::
 
-    sudo apt-get install realpath p7zip-full qemu-user-static
+    sudo apt-get install git wget curl p7zip-full lsof jq fdisk
     
     git clone https://github.com/guysoft/CustomPiOS.git
-    git clone https://github.com/guysoft/RealtimePi.git
+    git clone https://github.com/zynthbox/RealtimePi.git
     cd RealtimePi/src/image
     wget -c --trust-server-names 'https://downloads.raspberrypi.org/raspbian_lite_latest'
     cd ..
