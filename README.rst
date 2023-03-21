@@ -66,7 +66,7 @@ Build requires about 3.5 GB of free space available.
 Note it takes about 6 hours to builds the kernel, and 12 for both kernels!
 You can build it by issuing the following commands::
 
-    sudo apt-get install git wget curl p7zip-full lsof jq fdisk
+    sudo apt-get install git wget curl p7zip-full lsof jq fdisk sudo python3
     
     git clone https://github.com/guysoft/CustomPiOS.git
     git clone https://github.com/zynthbox/RealtimePi.git
