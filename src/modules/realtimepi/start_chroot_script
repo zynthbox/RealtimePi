@@ -18,7 +18,7 @@ wget https://github.com/kdoren/linux/releases/download/rpi_5.15.65-rt49/linux-li
 
 dpkg -i *.deb
 
-KERN=5.15.65-llat-v7l+
+KERN=5.15.65-rt49-v7l+
 mkdir -p /boot/$KERN/overlays/
 cp -d /usr/lib/linux-image-$KERN/overlays/* /boot/$KERN/overlays/
 cp -dr /usr/lib/linux-image-$KERN/* /boot/$KERN/
